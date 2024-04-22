@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rationals.TestRationals" tests="43" skipped="0" failures="1" errors="0" timestamp="2024-04-13T09:45:13" hostname="LM0006207" time="0.032">
+  <properties/>
+  <testcase name="test0Sample9InRange" classname="rationals.TestRationals" time="0.004"/>
+  <testcase name="test0Sample3Product" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test4InRange0" classname="rationals.TestRationals" time="0.005"/>
+  <testcase name="test4InRange1" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test4InRange2" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test4InRange3" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test4InRange4" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test4InRange5" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test4InRange6" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test0Sample10Long" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison10" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test0Sample1Sum" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test0Sample5Negation" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test0Sample4Quotient" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test1Normalized0" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test1Normalized1" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test1Normalized2" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test1Normalized3" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test1Normalized4" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test1Normalized5" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison0" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison1" classname="rationals.TestRationals" time="0.003"/>
+  <testcase name="test3Comparison2" classname="rationals.TestRationals" time="0.002">
+    <failure message="java.lang.AssertionError: Wrong result for -1042438361047144366998/59812037109262381713 == 1076615241954175969826/-61773005685895342531 expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Wrong result for -1042438361047144366998/59812037109262381713 == 1076615241954175969826/-61773005685895342531 expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at rationals.TestRationals.testComparison(TestRationals.kt:39)
+	at rationals.TestRationals.test3Comparison2(TestRationals.kt:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test3Comparison3" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison4" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison5" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison6" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison7" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison8" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test3Comparison9" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test0Sample8Comparison" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test0Sample11BigInteger" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test0Sample2Difference" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test0Sample6Integer" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test2Arithmetic0" classname="rationals.TestRationals" time="0.004"/>
+  <testcase name="test2Arithmetic1" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test2Arithmetic2" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test2Arithmetic3" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test2Arithmetic4" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test2Arithmetic5" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test2Arithmetic6" classname="rationals.TestRationals" time="0.0"/>
+  <testcase name="test2Arithmetic7" classname="rationals.TestRationals" time="0.001"/>
+  <testcase name="test0Sample7NormalizedForm" classname="rationals.TestRationals" time="0.0"/>
+  <system-out><![CDATA[num - 1 & den - 1
+num - 3 & den - 1
+num - 1 & den - 3
+num - 1 & den - 3
+num - 2 & den - 1
+num - 3 & den - 1
+num - 2 & den - 3
+num - 2 & den - 3
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 3 & den - 1
+num - 1 & den - 3
+num - 1 & den - 3
+num - 1 & den - 6
+num - 1 & den - 6
+num - 1 & den - 1
+num - 6 & den - 1
+num - 1 & den - 6
+num - 1 & den - 6
+num - 0 & den - 1
+num - 1 & den - 100
+num - 0 & den - 1
+num - 258 & den - 23
+num - 1101 & den - 92
+num - 95 & den - 8
+num - 273 & den - 562
+num - 277 & den - 281
+num - 339 & den - 685
+num - 1 & den - 2
+num - 2 & den - 3
+num - 5098950737004864959750950500297570755 & den - 8123301483717387152255977733113591407
+num - 37 & den - 431
+num - 505 & den - 862
+num - 10 & den - 527
+num - 1 & den - 25
+num - 27 & den - 50
+num - 2 & den - 295
+num - 3 & den - 25
+num - 31 & den - 50
+num - 229 & den - 323
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 2000000000 & den - 1
+num - 4000000000 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 17 & den - 382231
+num - -17 & den - 382231
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 3 & den - 1
+num - 1 & den - 3
+num - 1 & den - 3
+num - 5 & den - 6
+num - 5 & den - 1
+num - 6 & den - 1
+num - 5 & den - 6
+num - 5 & den - 6
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - -1 & den - 2
+num - -1 & den - 1
+num - 2 & den - 1
+num - -1 & den - 2
+num - -1 & den - 2
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 3 & den - 1
+num - 1 & den - 3
+num - 1 & den - 3
+num - 3 & den - 2
+num - 3 & den - 2
+num - 3 & den - 1
+num - 2 & den - 1
+num - 3 & den - 2
+num - 3 & den - 2
+num - 8 & den - 5
+num - 8 & den - 5
+num - 13 & den - 28
+num - 13 & den - 28
+num - 2 & den - 1
+num - 2 & den - 1
+num - 39 & den - 7
+num - 39 & den - 7
+num - 461 & den - 771
+num - 461 & den - 771
+num - -31 & den - 541
+num - -31 & den - 541
+num - 1 & den - 2
+num - 1 & den - 3
+num - 20325830850349869048604856908 & den - 1
+num - -9192901948302584358938698 & den - 1
+num - -122 & den - 7
+num - -122 & den - 7
+num - -122 & den - 7
+num - -122 & den - 7
+num - 169 & den - 834
+num - 169 & den - 834
+num - 169 & den - 834
+num - 169 & den - 834
+num - 19 & den - 65
+num - 40687 & den - 138970
+num - 669 & den - 662
+num - 132455 & den - 130414
+num - 95676047876718598058 & den - 21886075122687372173
+num - 719390507052102557245 & den - 53591306636978481949
+num - -48673102662562360478 & den - 2261578507553402607
+num - -495 & den - 23
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 2 & den - 1
+num - 3 & den - 1
+num - 2 & den - 3
+num - 2 & den - 3
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 3237541451465957789 & den - 1
+num - 6475082902931915578 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 2 & den - 1
+num - 1 & den - 2
+num - 1 & den - 2
+num - 1 & den - 1
+num - 3 & den - 1
+num - 1 & den - 3
+num - 1 & den - 3
+num - 1 & den - 6
+num - 1 & den - 1
+num - 6 & den - 1
+num - 1 & den - 6
+num - 1 & den - 6
+num - 2 & den - 1
+num - 1 & den - 1
+num - 2 & den - 1
+num - 2 & den - 1
+num - 86 & den - 1
+num - 4 & den - 1
+num - 90 & den - 1
+num - 17 & den - 94
+num - 59 & den - 87
+num - -4067 & den - 8178
+num - -4067 & den - 8178
+num - 3 & den - 35
+num - 5 & den - 2
+num - 3 & den - 14
+num - 3 & den - 14
+num - 3 & den - 14
+num - 21 & den - 4
+num - 1 & den - 11
+num - 231 & den - 4
+num - 231 & den - 4
+num - 231 & den - 4
+num - 828099487587993325537 & den - 44002379163849686934
+num - 66414307934161174681 & den - 60293979019528872099
+num - 17617266896778903272923516079952426936739 & den - 884359508704835805965897828865092484822
+num - 17617266896778903272923516079952426936739 & den - 884359508704835805965897828865092484822
+num - 279213 & den - 256160
+num - 480671 & den - 381762
+num - -8267885027 & den - 48896076960
+num - -8267885027 & den - 48896076960
+num - 373841 & den - 455258
+num - 123373 & den - 86727
+num - 46121885693 & den - 39483160566
+num - 46121885693 & den - 39483160566
+num - 46121885693 & den - 39483160566
+num - -892960086566848172 & den - 1255436262593739049
+num - 4591485438057083087 & den - 8714141205563313137
+num - -7781380285275554790183890063972035564 & den - 5764317318107961130856061713789364263
+num - -7781380285275554790183890063972035564 & den - 5764317318107961130856061713789364263
+num - -7781380285275554790183890063972035564 & den - 5764317318107961130856061713789364263
+num - -2 & den - 1
+num - 4 & den - 1
+num - -1 & den - 2
+num - -1 & den - 2
+num - -1 & den - 2
+num - 13 & den - 122
+num - 13 & den - 122
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

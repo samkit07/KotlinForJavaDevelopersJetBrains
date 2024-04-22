@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class rationals.TestRationals</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class rationals.TestRationals</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/rationals.html">rationals</a> &gt; TestRationals</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">43</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.028s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">97%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="test3Comparison2"></a>
+<h3 class="failures">test3Comparison2</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Wrong result for -1042438361047144366998/59812037109262381713 == 1076615241954175969826/-61773005685895342531 expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at rationals.TestRationals.testComparison(TestRationals.kt:39)
+	at rationals.TestRationals.test3Comparison2(TestRationals.kt:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test0Sample10Long</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample11BigInteger</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample1Sum</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample2Difference</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample3Product</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample4Quotient</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample5Negation</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample6Integer</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample7NormalizedForm</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample8Comparison</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test0Sample9InRange</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized0</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized2</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized3</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized4</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1Normalized5</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic0</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic2</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic3</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic4</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic5</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic6</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2Arithmetic7</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison0</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison1</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison10</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test3Comparison2</td>
+<td class="failures">0.002s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison3</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison4</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison5</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison6</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison7</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison8</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3Comparison9</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange0</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange2</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange3</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange4</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange5</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4InRange6</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>num - 1 &amp; den - 1
+num - 3 &amp; den - 1
+num - 1 &amp; den - 3
+num - 1 &amp; den - 3
+num - 2 &amp; den - 1
+num - 3 &amp; den - 1
+num - 2 &amp; den - 3
+num - 2 &amp; den - 3
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 3 &amp; den - 1
+num - 1 &amp; den - 3
+num - 1 &amp; den - 3
+num - 1 &amp; den - 6
+num - 1 &amp; den - 6
+num - 1 &amp; den - 1
+num - 6 &amp; den - 1
+num - 1 &amp; den - 6
+num - 1 &amp; den - 6
+num - 0 &amp; den - 1
+num - 1 &amp; den - 100
+num - 0 &amp; den - 1
+num - 258 &amp; den - 23
+num - 1101 &amp; den - 92
+num - 95 &amp; den - 8
+num - 273 &amp; den - 562
+num - 277 &amp; den - 281
+num - 339 &amp; den - 685
+num - 1 &amp; den - 2
+num - 2 &amp; den - 3
+num - 5098950737004864959750950500297570755 &amp; den - 8123301483717387152255977733113591407
+num - 37 &amp; den - 431
+num - 505 &amp; den - 862
+num - 10 &amp; den - 527
+num - 1 &amp; den - 25
+num - 27 &amp; den - 50
+num - 2 &amp; den - 295
+num - 3 &amp; den - 25
+num - 31 &amp; den - 50
+num - 229 &amp; den - 323
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 2000000000 &amp; den - 1
+num - 4000000000 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 17 &amp; den - 382231
+num - -17 &amp; den - 382231
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 3 &amp; den - 1
+num - 1 &amp; den - 3
+num - 1 &amp; den - 3
+num - 5 &amp; den - 6
+num - 5 &amp; den - 1
+num - 6 &amp; den - 1
+num - 5 &amp; den - 6
+num - 5 &amp; den - 6
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - -1 &amp; den - 2
+num - -1 &amp; den - 1
+num - 2 &amp; den - 1
+num - -1 &amp; den - 2
+num - -1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 3 &amp; den - 1
+num - 1 &amp; den - 3
+num - 1 &amp; den - 3
+num - 3 &amp; den - 2
+num - 3 &amp; den - 2
+num - 3 &amp; den - 1
+num - 2 &amp; den - 1
+num - 3 &amp; den - 2
+num - 3 &amp; den - 2
+num - 8 &amp; den - 5
+num - 8 &amp; den - 5
+num - 13 &amp; den - 28
+num - 13 &amp; den - 28
+num - 2 &amp; den - 1
+num - 2 &amp; den - 1
+num - 39 &amp; den - 7
+num - 39 &amp; den - 7
+num - 461 &amp; den - 771
+num - 461 &amp; den - 771
+num - -31 &amp; den - 541
+num - -31 &amp; den - 541
+num - 1 &amp; den - 2
+num - 1 &amp; den - 3
+num - 20325830850349869048604856908 &amp; den - 1
+num - -9192901948302584358938698 &amp; den - 1
+num - -122 &amp; den - 7
+num - -122 &amp; den - 7
+num - -122 &amp; den - 7
+num - -122 &amp; den - 7
+num - 169 &amp; den - 834
+num - 169 &amp; den - 834
+num - 169 &amp; den - 834
+num - 169 &amp; den - 834
+num - 19 &amp; den - 65
+num - 40687 &amp; den - 138970
+num - 669 &amp; den - 662
+num - 132455 &amp; den - 130414
+num - 95676047876718598058 &amp; den - 21886075122687372173
+num - 719390507052102557245 &amp; den - 53591306636978481949
+num - -48673102662562360478 &amp; den - 2261578507553402607
+num - -495 &amp; den - 23
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 2 &amp; den - 1
+num - 3 &amp; den - 1
+num - 2 &amp; den - 3
+num - 2 &amp; den - 3
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 3237541451465957789 &amp; den - 1
+num - 6475082902931915578 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 1 &amp; den - 2
+num - 1 &amp; den - 2
+num - 1 &amp; den - 1
+num - 3 &amp; den - 1
+num - 1 &amp; den - 3
+num - 1 &amp; den - 3
+num - 1 &amp; den - 6
+num - 1 &amp; den - 1
+num - 6 &amp; den - 1
+num - 1 &amp; den - 6
+num - 1 &amp; den - 6
+num - 2 &amp; den - 1
+num - 1 &amp; den - 1
+num - 2 &amp; den - 1
+num - 2 &amp; den - 1
+num - 86 &amp; den - 1
+num - 4 &amp; den - 1
+num - 90 &amp; den - 1
+num - 17 &amp; den - 94
+num - 59 &amp; den - 87
+num - -4067 &amp; den - 8178
+num - -4067 &amp; den - 8178
+num - 3 &amp; den - 35
+num - 5 &amp; den - 2
+num - 3 &amp; den - 14
+num - 3 &amp; den - 14
+num - 3 &amp; den - 14
+num - 21 &amp; den - 4
+num - 1 &amp; den - 11
+num - 231 &amp; den - 4
+num - 231 &amp; den - 4
+num - 231 &amp; den - 4
+num - 828099487587993325537 &amp; den - 44002379163849686934
+num - 66414307934161174681 &amp; den - 60293979019528872099
+num - 17617266896778903272923516079952426936739 &amp; den - 884359508704835805965897828865092484822
+num - 17617266896778903272923516079952426936739 &amp; den - 884359508704835805965897828865092484822
+num - 279213 &amp; den - 256160
+num - 480671 &amp; den - 381762
+num - -8267885027 &amp; den - 48896076960
+num - -8267885027 &amp; den - 48896076960
+num - 373841 &amp; den - 455258
+num - 123373 &amp; den - 86727
+num - 46121885693 &amp; den - 39483160566
+num - 46121885693 &amp; den - 39483160566
+num - 46121885693 &amp; den - 39483160566
+num - -892960086566848172 &amp; den - 1255436262593739049
+num - 4591485438057083087 &amp; den - 8714141205563313137
+num - -7781380285275554790183890063972035564 &amp; den - 5764317318107961130856061713789364263
+num - -7781380285275554790183890063972035564 &amp; den - 5764317318107961130856061713789364263
+num - -7781380285275554790183890063972035564 &amp; den - 5764317318107961130856061713789364263
+num - -2 &amp; den - 1
+num - 4 &amp; den - 1
+num - -1 &amp; den - 2
+num - -1 &amp; den - 2
+num - -1 &amp; den - 2
+num - 13 &amp; den - 122
+num - 13 &amp; den - 122
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at 13-Apr-2024, 3:15:13 pm</p>
+</div>
+</div>
+</body>
+</html>
